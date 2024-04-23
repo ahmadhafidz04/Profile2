@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+	list-style-type: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 2000px; 
+	/* SVG background */
+	background-color: #FCCC00;
+	/* background-image: url(blurry-gradient-haikei.png); */
+	/* Ensure the background covers the entire viewport */
+	background-size: cover;
+	/* Center the background */
+	background-position: center;
+	/* Fix the background so it doesn't scroll */
+	background-attachment: fixed;
+}
+
+nav {
+	background-color: #090907;
+	color: #FFFFF2;
+	opacity: 0.95;
+	position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+
+/* FCCC00
+DEA001
+C7B897
+38311F
+090907
+FFFFF2 */
+
+
+
+.jumbotron {
+    padding: 6rem 0 6rem 0;
+    background-color: #FCCC00;
+	padding-bottom: 12%;
+    color: #FFFFF2;
+}
+
+.jumbotron h1 {
+	color: #090907;
+}
+
+.jumbotron p {
+	color: #090907;
+}
+
+.jumbotron img {
+	border: #090907 4px solid;
+	border-radius: 50%;
+	border-color: #090907;
+}
+
+.social-icons a {
+	color: #090907;
+}
+#about {
+	background-color: #090907;
+	color: #FFFFF2;
+}
+
+#about .container .row .col {
+	max-height: auto;
+}
+#edu-exp .container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+.container{
+	width: 100%;
+	padding: 35px 10px;
+}
+.col .content{
+	padding: 0px 30px;
+	border-left: 2px solid #090907;
+}
+.col .content .box{
+	position: relative;
+	padding: 20px;
+	border: 1px solid #eaeaea;
+	border-radius: 20px;
+	background-color: #ffffff;
+	cursor: pointer;
+	transition: all 0.4s;
+	margin-bottom: 20px;
+}
+.col .content .box:hover{
+	box-shadow: 0px 3px 12px 0px #38311F;
+	border: 1px solid transparent;
+}
+.col .content .box::before{
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	right: calc(100% + 24px);
+	top: -1px;
+	background-color: #C7B897;
+	border: 2px solid black;
+}
+.box h4{
+	position: relative;
+	color: #DEA001;
+}
+.box h3{
+	font-size: 19px;
+	padding: 10px 0px 6px;
+	font-family: helvetica;
+	color: #38311F;
+}
+.box p{
+	line-height: 1.2;
+	color: #38311F;
+	font-size: 17px;
+}
+@media(max-width: 768px){
+	main.row{
+		grid-template-columns: 1fr;
+	}
+	.row .col:nth-child(2){
+		margin-top: 30px;
+	}
+}
+
+#projects {
+    background-color: #090907;
+    border-radius: 20px;
+    color: #FFFFF2;
+}
