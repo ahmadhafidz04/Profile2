@@ -30,13 +30,13 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Project</a>
+              <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link" href="#projects">Project</a>
             </li>
           </ul>
         </div>
@@ -57,13 +57,8 @@
     <!-- HEADER SECTION END -->
 
     <!-- ABOUT SECTION START -->
-    <section id="about" class="mt-5 pt-5 mb-5 pb-5">
+    <!-- <section id="about" class="mt-5 pt-5 mb-5 pb-5">
       <div class="container">
-        <!-- <div class="row text-center">
-          <div class="col">
-            <h2>Information</h2>
-          </div>
-        </div> -->
         <div class="row justify-content-evenly">
           <div class="col-md-4">
             <h2>Information</h2>
@@ -87,7 +82,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ABOUT SECTION END -->
     <!-- EDUCATION SECTION START -->
     <section id="edu-exp">
